@@ -10,13 +10,6 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.title != null %}
@@ -26,12 +19,14 @@
         {% endif %}
       {% endfor %}
 
-      <a href="https://twitter.com/TizMancinelli" target="_blank" title="Twitter"><i class="fa fa-twitter fa-fw"></i></a>
-      <a href="https://github.com/tmancinelli" target="_blank" title="Github"><i class="fa fa-github fa-fw"></i></a>
-      <a href="mailto:tiziana.mancinelli@unive.it"><i class="fa fa-envelope fa=fw"></i></a>
+      <div class="links">
+        <a href="https://twitter.com/TizMancinelli" target="_blank" title="Twitter"><i class="fa fa-twitter fa-fw"></i></a>
+        <a href="https://github.com/tmancinelli" target="_blank" title="Github"><i class="fa fa-github fa-fw"></i></a>
+        <a href="mailto:tiziana.mancinelli@unive.it"><i class="fa fa-envelope fa=fw"></i></a>
+      </div>
     </nav>
 
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p class="copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
