@@ -1,0 +1,26 @@
+# Dependencies
+#markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+# Setup
+title:            Tiziana Mancinelli
+tagline:          '#digitalhuminities #textualscholariship'
+description:      '#digitalhuminities #textualscholariship #rava #fava'
+url:              http://tmancinelli.github.io
+baseurl:          /
+
+author:
+  name:           'Tiziana Mancinelli'
+  url:            https://twitter.com/tizmancinelli
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/tmancinelli/myWebsite
