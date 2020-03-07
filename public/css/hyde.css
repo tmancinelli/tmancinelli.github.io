@@ -54,7 +54,7 @@ html {
  */
 
 .sidebar {
-  background: linear-gradient(to right, rgba(255,255,255,0) 85%, rgba(255,255,255,1)),
+  background: linear-gradient(to right, rgba(255,255,255,0) 90%, rgba(255,255,255,1)),
               url("https://source.unsplash.com/random/1600x900");
   text-align: center;
   padding: 2rem 1rem;
@@ -130,7 +130,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
+    max-width: 44rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }
@@ -249,4 +249,30 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+/* TIZZI */
+
+.item {
+  margin-bottom: 1.5em;
+  font-size: 0.8em;
+}
+
+.item h3 {
+  font-size: 1.3em;
+}
+
+.item h4 {
+  font-size: 1em;
+}
+
+.section {
+  margin-top: 2em;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 2em;
+}
+
+.period {
+  text-align: right;
+  font-size: 0.8em;
 }

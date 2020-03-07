@@ -2,6 +2,11 @@
 #markdown:         redcarpet
 highlighter:      pygments
 
+collections:
+  - education
+  - training
+  - work_experience
+
 # Permalinks
 permalink:        pretty
 #relative_permalinks: true
@@ -9,7 +14,7 @@ permalink:        pretty
 # Setup
 title:            Tiziana Mancinelli
 tagline:          '#digitalhuminities #textualscholariship'
-description:      '#digitalhuminities #textualscholariship #rava #fava'
+description:      '#digitalhuminities #textualscholariship'
 url:              http://tmancinelli.github.io
 baseurl:          /
 

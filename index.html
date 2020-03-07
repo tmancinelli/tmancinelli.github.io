@@ -2,37 +2,41 @@
 layout: default
 title: Home
 ---
+<h3 class="section">Education</h3>
+<div class="items">
+  {% assign education = site.education | reverse %}
+  {% for item in education %}
+    <div class="item">
+      <div class="period">{{ item.period }}</div>
+      <h3 class="post-title">{{ item.title }}</h3>
 
-<h3>Teaching</h3>
-
-<div class="posts">
-  {% for post in site.posts %}
-    {% if post.categories contains 'teaching' %}
-      <div class="post">
-        <h1 class="post-title">
-          <a href="{{ post.url }}">
-            {{ post.title }}
-          </a>
-        </h1>
-
-        {{ post.content }}
-      </div>
-    {% endif %}
+      {{ item.content }}
+    </div>
   {% endfor %}
 </div>
 
-<h3>Work experience</h3>
+<h3 class="section">Training</h3>
+<div class="items">
+  {% assign training = site.training | reverse %}
+  {% for item in training %}
+    <div class="item">
+      <div class="period">{{ item.period }}</div>
+      <h3 class="post-title">{{ item.title }}</h3>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <div class="post">
-      <h1 class="post-title">
-        <a href="{{ post.url }}">
-          {{ post.title }}
-        </a>
-      </h1>
+      {{ item.content }}
+    </div>
+  {% endfor %}
+</div>
 
-      {{ post.content }}
+<h3 class="section">Academic Work Experience</h3>
+<div class="items">
+  {% assign work_experience = site.work_experience | reverse %}
+  {% for item in work_experience %}
+    <div class="item">
+      <div class="period">{{ item.period }}</div>
+      <h3 class="post-title">{{ item.title }}</h3>
+
+      {{ item.content }}
     </div>
   {% endfor %}
 </div>
