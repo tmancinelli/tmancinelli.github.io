@@ -40,3 +40,16 @@ title: Home
     </div>
   {% endfor %}
 </div>
+
+<h3 class="section">Teaching Experience</h3>
+<div class="items">
+  {% assign teaching_experience = site.teaching_experience | reverse %}
+  {% for item in teaching_experience %}
+    <div class="item">
+      <div class="period">{{ item.period }}</div>
+      <h3 class="post-title">{{ item.title }}</h3>
+
+      {{ item.content }}
+    </div>
+  {% endfor %}
+</div>

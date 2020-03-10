@@ -1,11 +1,10 @@
 # Dependencies
-#markdown:         redcarpet
-highlighter:      pygments
 
 collections:
   - education
   - training
   - work_experience
+  - teaching_experience
 
 # Permalinks
 permalink:        pretty
