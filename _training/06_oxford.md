@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Oxford University Computing Services
 period: 2012
 ---

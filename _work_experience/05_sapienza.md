@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Text encoder, University of Rome 'La Sapienza'
 period: 2003-2007
 ---

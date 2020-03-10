@@ -1,5 +1,4 @@
 ---
-layout: post
 title: King’s College, London
 period: 2009-2010
 ---

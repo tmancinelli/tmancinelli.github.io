@@ -1,5 +1,4 @@
 ---
-layout: post
 title: University of Rome
 period: 2014
 ---

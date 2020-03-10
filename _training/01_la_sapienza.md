@@ -1,5 +1,4 @@
 ---
-layout: post
 title: University of Rome 'La Sapienza'
 period: 1999-2000
 ---
