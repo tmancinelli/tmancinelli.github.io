@@ -1,5 +1,5 @@
----
-title: Che cos'è un'edizione scientifica digitale
+
+title: 'Che cos'è un'edizione scientifica digitale', Carocci: Roma
 period: published 2020
 ---
  
