@@ -2,10 +2,17 @@
 layout: default
 title: Home
 ---
-<h3 class="section">Education</h3>
+<div class="aboutme">
+<h3>Welcome to my website!</h3>
+<p>You will find some information about myself and some links to resourses, tools, and projects I have been working on. However, this website does not contain at present everything about my work: it is still a work-in-progress.</p>
+<p>I am a researcher whose work is based on textual criticism and digital humanities. I am always interested in working on interdisciplinary projects and explore several methods in computer science. <br/>I has been involved in anti-racist and feminist activism for many years, developing a interests on construction of online identities. </p>
+</div>
+
+
+<h3 class="section">Relevant news</h3>
 <div class="items">
-  {% assign education = site.education | reverse %}
-  {% for item in education %}
+  {% assign news = site.news | reverse %}
+  {% for item in news %}
     <div class="item">
       <div class="period">{{ item.period }}</div>
       <h3 class="post-title">{{ item.title }}</h3>
@@ -15,41 +22,16 @@ title: Home
   {% endfor %}
 </div>
 
-<h3 class="section">Training</h3>
+<h3 class="section">Relevant Projects</h3>
 <div class="items">
-  {% assign training = site.training | reverse %}
-  {% for item in training %}
+  {% assign projects = site.projects | reverse %}
+  {% for item in projects %}
     <div class="item">
       <div class="period">{{ item.period }}</div>
-      <h3 class="post-title">{{ item.title }}</h3>
-
-      {{ item.content }}
-    </div>
-  {% endfor %}
-</div>
-
-<h3 class="section">Academic Work Experience</h3>
-<div class="items">
-  {% assign work_experience = site.work_experience | reverse %}
-  {% for item in work_experience %}
-    <div class="item">
-      <div class="period">{{ item.period }}</div>
-      <h3 class="post-title">{{ item.title }}</h3>
-
-      {{ item.content }}
-    </div>
-  {% endfor %}
-</div>
-
-<h3 class="section">Teaching Experience</h3>
-<div class="items">
-  {% assign teaching_experience = site.teaching_experience | reverse %}
-  {% for item in teaching_experience %}
-    <div class="item">
-      <div class="period">{{ item.period }}</div>
-      <h3 class="post-title">{{ item.title }}</h3>
-
-      {{ item.content }}
+      <h3 class="post-title"><a href="{{ item.link }}">{{ item.title }}</a></h3>
+      
+      <a href="{{ item.link }}"><img src="{{ item.image }}" alt="{{ item.title }}" class="projectImage" /></a>
+      <div class="right">{{ item.content }}</div>
     </div>
   {% endfor %}
 </div>

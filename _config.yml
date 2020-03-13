@@ -5,7 +5,9 @@ collections:
   - training
   - work_experience
   - teaching_experience
-
+  - news
+  - projects
+  
 # Permalinks
 permalink:        pretty
 #relative_permalinks: true

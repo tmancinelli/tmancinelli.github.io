@@ -43,3 +43,17 @@ nav .links {
   background: linear-gradient(to bottom, rgba(255,255,255,0) 40%, rgba(25,25,25,1)),
               url("https://source.unsplash.com/random/1600x900");
 }
+
+.aboutme {
+  margin-top: 3em;
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #515151;
+}
+
+.projectImage {
+  width: 200px;
+  float: right;
+  padding-left: 1em;
+}
