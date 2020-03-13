@@ -1,0 +1,55 @@
+---
+layout: page
+title: Curriculm Vitae
+---
+<h3 class="section">Education</h3>
+<div class="items">
+  {% assign education = site.education | reverse %}
+  {% for item in education %}
+    <div class="item">
+      <div class="period">{{ item.period }}</div>
+      <h3 class="post-title">{{ item.title }}</h3>
+
+      {{ item.content }}
+    </div>
+  {% endfor %}
+</div>
+
+<h3 class="section">Training</h3>
+<div class="items">
+  {% assign training = site.training | reverse %}
+  {% for item in training %}
+    <div class="item">
+      <div class="period">{{ item.period }}</div>
+      <h3 class="post-title">{{ item.title }}</h3>
+
+      {{ item.content }}
+    </div>
+  {% endfor %}
+</div>
+
+<h3 class="section">Academic Work Experience</h3>
+<div class="items">
+  {% assign work_experience = site.work_experience | reverse %}
+  {% for item in work_experience %}
+    <div class="item">
+      <div class="period">{{ item.period }}</div>
+      <h3 class="post-title">{{ item.title }}</h3>
+
+      {{ item.content }}
+    </div>
+  {% endfor %}
+</div>
+
+<h3 class="section">Teaching Experience</h3>
+<div class="items">
+  {% assign teaching_experience = site.teaching_experience | reverse %}
+  {% for item in teaching_experience %}
+    <div class="item">
+      <div class="period">{{ item.period }}</div>
+      <h3 class="post-title">{{ item.title }}</h3>
+
+      {{ item.content }}
+    </div>
+  {% endfor %}
+</div>

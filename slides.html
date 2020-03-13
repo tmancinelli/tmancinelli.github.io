@@ -1,0 +1,16 @@
+---
+layout: page
+title: Slides
+---
+<h3 class="section">Useful Slides to share with you</h3>
+<div class="items">
+  {% assign slides = site.slides | reverse %}
+  {% for item in slides %}
+    <div class="item">
+      <div class="period">{{ item.period }}</div>
+      <h3 class="post-title">{{ item.title }}</h3>
+
+      {{ item.content }}
+    </div>
+  {% endfor %}
+</div>
