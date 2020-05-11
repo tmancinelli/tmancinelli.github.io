@@ -14,6 +14,7 @@ Editors suggested
 - [xsltproc](){:target="_blank"}
 - [Xquilla](http://xqilla.sourceforge.net/HomePage){:target="_blank"} 
 
+ ### Read the slides:
 
   #### Presentation of this workshop [Read the slides](https://slides.com/tizmancinelli/xslt-4f37f3#/){:target="_blank"}
 
@@ -21,7 +22,7 @@ Editors suggested
 
   #### XQUERY [Read the slides](https://slides.com/tizmancinelli/xquery-exist-db#/){:target="_blank"}
 
-What are we going to achieve?
+ #### What are we going to achieve?
 
 From this XML file: [download here](/public/resources/Frankenstein-v1c5-transcription.xml)
 
