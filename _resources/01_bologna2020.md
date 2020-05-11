@@ -16,11 +16,11 @@ Editors suggested
 
  ### Read the slides:
 
-  #### Presentation of this workshop [Read the slides](https://slides.com/tizmancinelli/xslt-4f37f3#/){:target="_blank"}
+ #### Presentation of this workshop [Read the slides](https://slides.com/tizmancinelli/xslt-4f37f3#/){:target="_blank"}
 
-  #### XPATH AND XSLT (Extensible Stylesheet Language Transformations) [Read the slides](https://slides.com/tizmancinelli/xslt-cd6553#/){:target="_blank"}
+ #### XPATH AND XSLT (Extensible Stylesheet Language Transformations) [Read the slides](https://slides.com/tizmancinelli/xslt-cd6553#/){:target="_blank"}
 
-  #### XQUERY [Read the slides](https://slides.com/tizmancinelli/xquery-exist-db#/){:target="_blank"}
+ #### XQUERY [Read the slides](https://slides.com/tizmancinelli/xquery-exist-db#/){:target="_blank"}
 
  #### What are we going to achieve?
 
