@@ -10,7 +10,7 @@ In this laboratory I will teach *XML related languages* and some of their tools.
 
 ## **Course materials**
 
-Before starting, just make sure you have your editor downloaded and ready to use it. Check out at the bottom of the page.
+Before starting, just make sure you have your editor downloaded and ready to use it. Check out at the bottom of this page.
 
 ### **What are we going to achieve?**
 
