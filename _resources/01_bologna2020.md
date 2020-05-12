@@ -8,7 +8,7 @@ period: 13th  May 2020
 
 In this laboratory I will teach *XML related languages* and some of their tools. Students and researchers working in DH are often working with XML. The aim of those classes is to give an overview of best practices and gather together a few online resources.  
 
-## **Course materials**
+## **Materials**
 
 Before starting, just make sure you have your editor downloaded and ready to use it. Check out at the bottom of this page.
 
@@ -30,9 +30,9 @@ Please download the XML file before starting the laboratory.
 
 ### _Recommend editors and software_
 
-- [Atom](https://atom.io/){:target="_blank"}
-- [oXygen](https://www.oxygenxml.com/){:target="_blank"}
-- [xsltproc](){:target="_blank"}
+- [Atom](https://atom.io/){:target="_blank"} is a desktop application with a plug-in to transform XSLT - [atom-xsltransform package](https://atom.io/packages/atom-xsltransform){:target="_blank"} and a package that contains a set of views and providers to support XQuery development using the [eXistdb Native XML Database](https://atom.io/packages/existdb){:target="_blank"}.
+- [oXygen](https://www.oxygenxml.com/){:target="_blank"} an editor that provides tools to work with Xpath, Xslt, and Xquery.
+- [xsltproc](http://xmlsoft.org/XSLT/xsltproc2.html){:target="_blank"} If you like to use command line, let's try xsltproc! It only supports version 1.0, but it does work very well. Have a look at the [video](https://asciinema.org/a/xY7shodeSp6XBqx4nVb8CDFsR){:target="_blank"}.
 - [Xquilla](http://xqilla.sourceforge.net/HomePage){:target="_blank"}
 - [existDB](http://exist-db.org/exist/apps/homepage/index.html){:target="_blank"}
 - [BaseX](http://basex.org/){:target="_blank"}
