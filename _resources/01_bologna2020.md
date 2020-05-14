@@ -16,6 +16,8 @@ Before starting, just make sure you have your editor downloaded and ready to use
 
 The practical part of this laboratory aims at trasforming with XSLT and XQUERY this XML file: [download here](/public/resources/Frankenstein-v1c5-transcription.xml) to this HTML visualisation: [download here](/public/resources/bologna.html).
 
+XSLT files of the first class: [xslt](/public/resources/bologna_2020.xsl) and [xsl:include - example](/public/resources/include_example.xsl)
+
 Please download the XML file before starting the laboratory.
 
 ### * **Slides**
