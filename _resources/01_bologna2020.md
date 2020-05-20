@@ -1,6 +1,6 @@
 ---
 title: University of Bologna
-period: 13th  May 2020
+period: 13rd  May 2020
 ---
 
 
